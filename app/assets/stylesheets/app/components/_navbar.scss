@@ -93,18 +93,51 @@
     background-color:#f7d381;
 }
 
+
+
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
 }
 
 
+  .brand-logo{
+    font-family: $cormorant;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    left: 22px;
+    top: 30px;
+    position: relative;
+  }  
+  .brand-logo-two{
+    font-family: $lato;
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+    left: 22px;
+    top: 30px;
+    position: relative;
+  } 
+
+
+
+
+
+
 #nav-mobile{
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#f7d381;
+}
+
 
   .navbar-toggle {
     margin-right: 30px;
     margin-top: 30px; 
   }
+
 
   li{ 
     width: 100%;  
@@ -127,13 +160,15 @@
   }
   
   .navbar-nav > li > a {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: white;
     padding-top: 0;
     text-align: center !important;
-  } 
-  
+  }   
+
+
   display:none;
-  
   @include respond-to(xs){display: inline-block;}
 }
 
@@ -145,3 +180,4 @@
   @include respond-to(xl){display: inline-block;}
   
 }
+
