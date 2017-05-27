@@ -1,0 +1,42 @@
+//= require_self
+
+// Plugins
+@import "bourbon";
+@import 'plugins/bootstrap_override';
+@import 'plugins/font_awesome';
+@import 'plugins/npogress';
+@import 'slick';
+@import 'slick-theme';
+
+// Utils
+@import 'utils/variables';
+@import 'utils/mixins';
+
+// Base
+@import 'base/base_project';
+
+// Layout
+@import 'layout/container';
+@import 'layout/header';
+@import 'layout/footer';
+
+// Components
+@import 'components/navbar';
+@import 'components/buttons';
+@import 'components/inputs';
+
+// Pages
+@import 'pages/frontend';
+@import 'pages/animate';
+@import 'pages/medias';
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/promo';
+@import 'pages/gallery';
+@import 'pages/foot';
+@import 'pages/other';
+// @import 'pages/footer';
+
+
+
+

@@ -1,0 +1,119 @@
+.about-section{
+  // margin-top: -21px;
+  // padding-top: 81px;
+  margin-bottom: 2px;
+}
+
+.gradient-vintage{
+  height: 100%;
+  width: 100%;
+  background: rgb(27, 1, 27); 
+  background: -webkit-linear-gradient(left, #1b011b, rgba(253, 253, 253, 0.04)); 
+  background: -o-linear-gradient(right, #1b011b, rgba(253, 253, 253, 0.04)); 
+  background: -moz-linear-gradient(right, #1b011b, rgba(253, 253, 253, 0.04)); 
+  background: linear-gradient(to right, #1b011b, rgba(253, 253, 253, 0.04));
+}
+
+.mask-about{
+    // position: relative;
+    // bottom: 108px;
+    // height: 361px;
+    // width: 100%;
+    background-color: #1b011b;
+     // margin-top: 129px;
+}
+
+
+.title-abouts{
+  font-family: $lato;
+  font-weight: 300;
+  font-size: 51px;
+  color: white;
+
+}
+
+.title-abouta{
+  font-family: $cormorant;
+  font-weight: 300;
+  font-size: 51px;
+  color: black;
+}
+
+.description-abouta{
+    color: black;
+    font-family: $lato;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.line-titles{
+    border: 1px solid #f7d381;
+    width: 80%;
+    position: relative;
+    bottom: 10px
+}
+
+
+.description-about{
+    color: white;
+    font-family: $lato;
+    font-weight: normal;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.frame-space{
+  height: 350px;
+  width: 100%;
+}
+
+.space-vintage{
+  height: 100%;
+  width: 100%;
+}
+
+.space-one{
+  height: 100%;
+  width: 100%;
+  background-image: url('8700.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.space-two{
+  height: 100%;
+  width: 100%;
+  background-image: url('8748.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.space-three{
+  height: 100%;
+  width: 100%;
+  background-image: url('8778.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slick-list {
+    height: 100%;
+}
+
+.slick-track {
+    height: 100%;
+}
+
+.style-title{
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+
+

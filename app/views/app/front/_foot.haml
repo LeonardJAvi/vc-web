@@ -1,0 +1,27 @@
+%section#contact.footer-section
+  %footer.footer
+    .container
+      .row
+        .col-md-4
+          .vintage
+            = image_tag 'app/logo.svg', id: "img"
+        .col-md-4.text-center.contact
+          .title-contact Ubícanos
+          %span C.C. Puerta del Sol, planta alta. Urb. Puerta Maraven
+          %span Punto Fijo - Estado Falcón
+          %span +58 269 248-2717
+          %span info@vintageclub.com
+        .col-md-4.text-center.social
+          .title-contact Síguenos
+          %a{:href => "https://www.facebook.com/Vintage-Club-467901280066242/"}
+            %i.fa.fa-facebook.fa-2x.icon-social{"aria-hidden" => "true"}
+          -# %a{:href => "https://twitter.com/vintageclubpf"}
+          -#   %i.fa.fa-twitter.fa-2x.icon-social{"aria-hidden" => "true"}
+          %a{:href => "https://www.instagram.com/vintageclubpf/"}
+            %i.fa.fa-instagram.fa-2x.icon-social{"aria-hidden" => "true"}
+        .col-md-6.copy
+          COPYRIGHT © 2017. VINTAGE CLUB. TODOS LOS DERECHOS RESERVADOS.
+        .col-md-6.slice.text-right
+          POWERED BY
+          %a{:href => "https://slicegroup.xyz", :target => "_blank"}
+            = image_tag 'app/slice-front.png'

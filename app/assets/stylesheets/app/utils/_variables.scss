@@ -1,0 +1,32 @@
+// Medias querys
+$breakpoints: (
+  'xs': "(min-width: 0px) and (max-width: 767px)",
+  'sm': "(min-width: 768px) and (max-width: 991px)",
+  'md': "(min-width: 992px) and (max-width: 1199px)",
+  'lg': "(min-width: 1200px) and (max-width: 1600px)",
+  'xl': "(min-width: 1601px) and (max-width: 2048px)",
+) !default;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+$putua: 'Patua One', cursive;
+$raleway: 'Raleway', sans-serif;
+$cormorant: 'Cormorant SC', serif;
+$lato: 'Lato', sans-serif;
+
+// Fonts size
+$base-font-size: 10px;
+
+// Fonts Weight
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 700;
+
+// Colors
+$primary-color: #ee6e73;
+$white: #fff;
+
+// Shadow
+$primary-shadow: rgba(0, 0, 0, .17);

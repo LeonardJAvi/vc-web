@@ -1,0 +1,90 @@
+.gallery-section{
+  background-image: url('gale.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+.effect-gallery{
+    background-color: rgba(27, 1, 27, 0.58);
+    padding-bottom: 60px;
+}
+
+.title-gallery{
+    color: #b7abb4;
+    font-family: $lato;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+}
+
+.cover-gallery-a{
+      height: 300px;
+      width: 100%;  
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.42);
+      background-image: url('8766.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+
+  @include respond-to(xs){
+    margin-bottom: 20px;
+  }
+
+}
+
+.mask-cover-gallery{
+   height: 100%;
+   width: 100%;
+  background-color: rgba(0, 0, 0, 0.57);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.icon-cover{
+   height: 100%; 
+   width: 100%;
+   padding-top: 100px;
+   color: white;
+   opacity:0;
+   animation: shake 8s infinite;
+}
+
+.icon-cover i{
+  font-size: 50px;
+  
+}
+
+.cover-gallery-a .icon-cover:hover{
+  opacity:1;
+}
+
+.cover-gallery-b .icon-cover:hover{  
+  opacity:1;
+}
+
+.cover-gallery-a .mask-cover-gallery:hover{
+   opacity:1;
+}
+
+
+.cover-gallery-b .mask-cover-gallery:hover{
+   opacity:1;
+}
+
+
+.title-link{
+  font-family: $lato;
+  font-color: black;
+  font-size: 2rem;
+  font-weight: bold; 
+}
+
+.cover-gallery-b{
+      height: 300px;
+      width: 100%;  
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.42);
+      background-image: url('8688.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+}

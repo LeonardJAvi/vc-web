@@ -1,0 +1,109 @@
+// #home{
+//   height: 100%;
+//   width: 100%;
+//   video{
+//        z-index:-1;
+//     }
+// }
+
+#frame{
+  height:100%;
+  width: 100%;
+  padding:20px;
+  background: rgba(27, 1, 27, 0.8);
+
+  #frame-border {
+    border: 2px solid #f7d381;
+    height:100%;
+    width: 100%;
+  }
+}
+
+#logo-main{
+  height: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100%;
+  position:absolute; 
+  top: 0;
+}
+
+
+#mouse{
+    width: 25px;
+    height: 45px;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 65px;
+    left: 50%;
+    margin-left: -12.5px;
+    border-radius: 12px;
+}
+
+#mouse:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background-color: #fff;
+    border-radius: 100%;
+    left: 50%;
+    margin-left: -2.5px;
+    top: 10px;
+     -webkit-animation: rotateplane 1.2s infinite ease-in-out;
+             animation: rotateplane 1.2s infinite ease-in-out;
+}
+
+.logo-vintage{
+
+  @include respond-to(xs){
+    width: 80%;
+  }
+
+  @include respond-to(sm){
+    width: 70%;
+  }
+
+  @include respond-to(md){
+    width: 60%;
+  }
+    
+  @include respond-to(lg){
+    width: 50%;
+  }
+
+  @include respond-to(xl){     
+    width: 40%; 
+  }
+
+}
+
+/* CSS Animations Keyframes */
+@-webkit-keyframes rotateplane { 
+    0% {
+        -webkit-transform: translateY(-2px)
+    }
+
+    100% {
+        -webkit-transform: translateY(7px)
+    }
+}
+
+@keyframes rotateplane { 
+    0% {
+        transform: translateY(-2px);
+        -webkit-transform: translateY(-2px);
+    }
+
+    100% {
+        transform: translateY(7px);
+        -webkit-transform: translateY(7px);
+    }
+}

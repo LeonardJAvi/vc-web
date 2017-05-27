@@ -1,0 +1,25 @@
+html,
+body,
+main {
+  height: 100%;
+  width: 100%;
+  background: #1b011b;
+  -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select:none;
+}
+
+html {
+  font-size: $base-font-size;
+}
+
+body {
+  font-size: 1.6rem;
+
+  @include respond-to(xs) {
+    font-size: 1.2rem;
+  }
+}
+
+

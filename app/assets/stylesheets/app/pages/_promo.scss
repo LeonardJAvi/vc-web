@@ -1,0 +1,68 @@
+.promo-section{
+    background-image: url('textura.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1px;
+}
+
+.effect-promo{
+    background-color: rgba(27, 1, 27, 0.87);
+    padding-bottom: 60px;
+}
+
+.cover-promo-a{
+  position: relative;
+  height: 420px;
+  width: 420px;
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+  background-image: url('promo1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  @include respond-to(xs){
+    margin-bottom: 20px;
+  }
+
+}
+
+.title-promo{
+  height: 104px;
+  width: 100%;
+  position: absolute;
+  color: white;
+  bottom: -1px;
+  background: linear-gradient(to bottom, transparent, rgb(0, 0, 0));
+}
+
+
+.title-cover{
+  font-family: $lato;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.subtitle-cover{
+  font-family: $lato;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.cover-promo-b{
+  position: relative;
+  height: 420px;
+  width: 420px;
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+  background-image: url('promo2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
