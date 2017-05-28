@@ -4,14 +4,27 @@
   margin-bottom: 2px;
 }
 
-.gradient-vintage{
+.gradient-vintage-left{
   height: 100%;
-  width: 100%;
+  width: 50%;
+  float: left;
   background: rgb(27, 1, 27); 
   background: -webkit-linear-gradient(left, #1b011b, rgba(253, 253, 253, 0.04)); 
   background: -o-linear-gradient(right, #1b011b, rgba(253, 253, 253, 0.04)); 
   background: -moz-linear-gradient(right, #1b011b, rgba(253, 253, 253, 0.04)); 
   background: linear-gradient(to right, #1b011b, rgba(253, 253, 253, 0.04));
+}
+
+
+.gradient-vintage-right{
+  height: 100%;
+  width: 50%;
+  float: right;
+  background: rgb(27, 1, 27); 
+  background: -webkit-linear-gradient(right, #1b011b, rgba(253, 253, 253, 0.04)); 
+  background: -o-linear-gradient(left, #1b011b, rgba(253, 253, 253, 0.04)); 
+  background: -moz-linear-gradient(left, #1b011b, rgba(253, 253, 253, 0.04)); 
+  background: linear-gradient(to left, #1b011b, rgba(253, 253, 253, 0.04));
 }
 
 .mask-about{
@@ -21,15 +34,6 @@
     // width: 100%;
     background-color: #1b011b;
      // margin-top: 129px;
-}
-
-
-.title-abouts{
-  font-family: $lato;
-  font-weight: 300;
-  font-size: 51px;
-  color: white;
-
 }
 
 .title-abouta{
@@ -46,14 +50,12 @@
     text-align: center;
 }
 
-
 .line-titles{
     border: 1px solid #f7d381;
     width: 80%;
     position: relative;
     bottom: 10px
 }
-
 
 .description-about{
     color: white;

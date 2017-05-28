@@ -10,4 +10,18 @@
   font-weight: 700;
   font-size: 51px;
   color: white;
+   @include respond-to(xs){
+    font-size: 41px;
+  }
 }
+
+.title-abouts{
+	font-family: $lato;
+  font-weight: 300;
+  font-size: 51px;
+  color: white;
+  @include respond-to(xs){
+    font-size: 41px;
+  }
+}
+  
